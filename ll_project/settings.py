@@ -36,7 +36,8 @@ else:
     DEBUG = True
 
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['deploy-pcc-learning-log.onrender.com']
+CSRF_TRUSTED_ORIGINS = ['https://deploy-pcc-learning-log.onrender.com']
 
 
 # Application definition
